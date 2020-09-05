@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form</title>
+	<link rel="stylesheet" type="text/css" href="form.css">
+</head>
+<body>
+	<div class="heads"><ul><li>Name should not start with a number</li>
+		<li>Phone Number should contain ten digits</li>
+		<li>Email should contain "@" and "."</li></ul><br></div>
+<form action="form.html" class="center" autocomplete="off">
+<label for="name">	NAME:</label> <input type="text" name="name" id="name" onkeyup="validateForm()" onkeydown ="validateForm()"><br>
+<label for="phone">	Phone Number:</label><input type="tel" name="phone" id="phone" onkeyup="validateForm()" onkeydown ="validateForm()"><br>
+<label for="email">Email:</label>	<input type="email" name="email" id="email" onkeyup="validateForm()" onkeydown ="validateForm()"><br>
+<input type="submit" name="submit" id="submit" onclick="successful()" disabled="true">
+</form>
+<script type="text/javascript" src="assignment2.js"></script>
+</body>
+</html>

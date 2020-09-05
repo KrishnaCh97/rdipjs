@@ -1,0 +1,20 @@
+body{
+	text-align: center;
+	width: 30%;
+	height: 30%;
+	position: absolute;
+	top: 30px;
+	left: 30%;
+	outline: dashed;
+}
+input{
+	width: 40px;
+	text-align: center;
+}
+legend{
+	padding-top: 10px;
+	font-family: serif;
+}
+p{
+	color: green;
+}

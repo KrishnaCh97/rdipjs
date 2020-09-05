@@ -1,0 +1,32 @@
+body{
+	width: 30%;
+	border:solid;
+	position: absolute;
+	left: 30%;
+	padding-top: 20px;
+	padding-left: 20px;
+}
+input{
+	position: absolute;
+	right: 60px;
+}
+button{
+	position: absolute;
+	left: 40%;
+}
+p{
+	text-align: center;
+	color: green
+}
+legend{
+	text-align: center;
+}
+#currencyIn{
+	color: green;
+}
+#currencyOut{
+	color: blue;
+}
+#amount{
+	color: brown;
+}

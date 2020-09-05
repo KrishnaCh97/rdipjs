@@ -1,0 +1,16 @@
+div{
+	text-align: center;
+	width: 13%;
+	outline: solid;
+	position: absolute;
+	left: 40%;
+	top: 20%; 
+}
+button{
+	width: 45px;
+	height: 30px;
+	padding: 0;
+}
+legend{
+	font-family:sans-serif;
+}

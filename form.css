@@ -1,0 +1,22 @@
+.center{
+	outline: solid;
+	width: 30%;
+	height: 30%;
+	position: absolute;
+	top: 10%;
+	left: 30%;
+	padding-top: 30px;
+}
+label{
+	float: left;
+	padding-left: 15px;
+	position: absolute;
+	left: 5px;
+}
+input{
+	position: absolute;
+	left: 40%;
+}
+.heads{
+	
+}

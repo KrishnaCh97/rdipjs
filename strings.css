@@ -1,0 +1,11 @@
+body{
+	text-align: center;
+	outline: dotted;
+	width: 30%;
+	position: absolute;
+	top: 10%;
+	left: 30%;
+}
+p{
+	color: brown;
+}
